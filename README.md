@@ -12,8 +12,8 @@ Ce programme en Java permet de jouer au Love Letter, un jeu de société pour 2 
 
 # Pour jouer
 
-1. Télécharger l'éxécutable LoveLetterGame.jar
-2. écrire la commande java -jar LoveLetterGame.jar ou double cliquer sur l'éxécutable
+1. Télécharger l'éxécutable ```LoveLetterGame.jar```
+2. écrire la commande ```java -jar LoveLetterGame.jar``` ou double cliquer sur l'éxécutable
 
 # Auteurs
 

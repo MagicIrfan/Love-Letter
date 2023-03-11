@@ -10,7 +10,7 @@ Ce programme en Java permet de jouer au Love Letter, un jeu de société pour 2 
 - Utilisation du patron de conception Strategy pour le choix des cartes et des joueurs cibles
 - Respect des principes SOLID
 
-#Pour jouer
+# Pour jouer
 
 1. Télécharger l'éxécutable LoveLetterGame.jar
 2. écrire la commande java -jar LoveLetterGame.jar ou double cliquer sur l'éxécutable

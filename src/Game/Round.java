@@ -47,7 +47,7 @@ public class Round {
     }
 
     public boolean isFinished() {
-        return playerIsAvailable() || deck.draw() == null;
+        return playerIsAvailable() || deck.getCards().isEmpty();
     }
 
     public List<Player> getAvailablePlayers(){

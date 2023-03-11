@@ -68,6 +68,7 @@ public class PlayVisitor {
         System.out.println(this.activePlayer + " joue le prince");
         if (this.activePlayer.getCards().get(0) instanceof Countess) {
             this.activePlayer.setLost(true);
+            System.out.println(this.activePlayer + " a perdu !");
             return;
         }
 
@@ -104,6 +105,7 @@ public class PlayVisitor {
         System.out.println(this.activePlayer + " joue le roi");
         if (this.activePlayer.getCards().get(0) instanceof Countess) {
             this.activePlayer.setLost(true);
+            System.out.println(this.activePlayer + " a perdu !");
             return;
         }
         Player chosenPlayer = this.getChosenPlayer();
@@ -111,7 +113,7 @@ public class PlayVisitor {
             System.out.println("Il ne se passe rien ...");
             return;
         }
-        System.out.println("Echange en cours");
+        System.out.println(this.activePlayer + " échange avec " + chosenPlayer);
         Card activeCard = this.activePlayer.getCards().get(0);
         Card chosenPlayerCard = chosenPlayer.getCards().get(0);
         this.activePlayer.getCards().clear();
